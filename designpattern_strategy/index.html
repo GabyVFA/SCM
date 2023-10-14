@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/calculamedia.js"></script>
+
+    <title>Atividade Engenharia de Software - Design Pattern Strategy</title>
+  </head>
+  <body>
+    <div id="app">
+      <h2>Atividade Design Pattern: Strategy</h2>
+      <p>Insira seu nome:</p>
+      <input type="text" id="nomealuno">
+      <p>Situação:</p>
+      <input type="text" disabled id="situacao">
+    </div>
+    <div class="container">
+    <p>Insira o valor da P1:</p>
+    <label for valor1></label>
+    <input type ="text" id="P1">
+    <p>Insira o valor da P2:</p>
+    <label for valor1></label>
+    <input type ="text" id="P2">
+    <button value="calcula" onclick="CalculaMedia()">Calcular</button>
+    <button value="calcula" onclick="Limpa()" id="limpar">Limpar</button>
+    <div class="resultado">
+      <br>
+      <p>Nota final:</p>
+      <input type="text" disabled id="resultado">
+    </div>
+  </div>
+  </body>
+</html>
